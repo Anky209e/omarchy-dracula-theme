@@ -1,0 +1,52 @@
+@define-color bg #282a36;
+@define-color fg #f8f8f2;
+@define-color selection #44475a;
+@define-color purple #bd93f9;
+@define-color pink #ff79c6;
+@define-color cyan #8be9fd;
+@define-color green #50fa7b;
+@define-color yellow #f1fa8c;
+@define-color orange #ffb86c;
+@define-color red #ff5555;
+@define-color comment #6272a4;
+
+window {
+    background-color: @bg;
+    border: 2px solid @purple;
+}
+
+input {
+    background-color: @bg;
+    color: @fg;
+    border: 1px solid @selection;
+}
+
+input:selected {
+    background-color: @selection;
+    color: @fg;
+}
+
+#entry {
+    color: @fg;
+    background-color: @bg;
+    padding: 5px;
+    margin: 2px;
+}
+
+#entry:selected {
+    background-color: @selection;
+    color: @pink;
+}
+
+scrollbar {
+    background-color: @bg;
+}
+
+scrollbar slider {
+    background-color: @selection;
+    border-radius: 5px;
+}
+
+scrollbar slider:hover {
+    background-color: @comment;
+}
