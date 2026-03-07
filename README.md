@@ -23,7 +23,7 @@ A dark, high-contrast theme featuring vibrant accent colors on a deep purple-gre
 - `swayosd.css` - SwayOSD
 - `btop.theme` - Btop++ theme
 - `warp.yaml` - Warp terminal
-- `Dracula.theme.css` - CSS variables theme
+- `Dracula.theme.css` - Vesktop theme
 - `colors.toml` - Generic colors config
 - `chromium.theme` - Chromium browser theme
 - `neovim.lua` - Neovim theme config
